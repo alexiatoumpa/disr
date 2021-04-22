@@ -3,7 +3,7 @@ from abc import abstractmethod, ABCMeta
 from qsrlib_qsrs.qsr_tetradic_abstractclass import QSR_Tetradic_Abstractclass
 
 
-class QSR_DRCC_Abstractclass(QSR_Tetradic_Abstractclass):
+class QSR_DiSR_Abstractclass(QSR_Tetradic_Abstractclass):
     """Abstract class of DiSR relations.
 
     Values of the abstract properties
@@ -22,7 +22,7 @@ class QSR_DRCC_Abstractclass(QSR_Tetradic_Abstractclass):
 
     def __init__(self):
         """Constructor."""
-        super(QSR_DRCC_Abstractclass, self).__init__()
+        super(QSR_DiSR_Abstractclass, self).__init__()
 
         self.__qsr_params_defaults = {"quantisation_factor": 0.0}
         """float: ?"""

@@ -272,16 +272,6 @@ def get_graphlet_selections(episodes, params, object_types, vis=False):
         else: intervals[objs].append(temporal_info)
     if vis: print("\nepisode_ids: ", episode_ids)
     if vis: print("\nintervals: ", intervals)
-    
-    # ----------------- I WROTE THIS -----------------
-    global first_time
-    if first_time:
-        try:
-            total_episodes = ep_id
-        except UnboundLocalError:
-            pass
-        first_time = False
-    # ---------------- END OF MY CODE ----------------
 
     hashed_IDs = {}
     range_of_rows = range(params["min_rows"], params["max_rows"]+1)

@@ -3,7 +3,7 @@ from __future__ import print_function, division
 from qsrlib_qsrs.qsr_disr_abstractclass import QSR_DiSR_Abstractclass
 
 
-class QSR_DRCC5(QSR_DiSR_Abstractclass):
+class QSR_DiSR(QSR_DiSR_Abstractclass):
     """Symmetrical DiSR relations.
 
     Values of the abstract properties

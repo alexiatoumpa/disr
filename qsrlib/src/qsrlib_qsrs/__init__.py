@@ -14,7 +14,7 @@ from qsr_new_mwe import QSR_MWE
 from qsr_ra import QSR_RA
 from qsr_tpcc import QSR_TPCC
 
-from qsr_drcc5 import QSR_DRCC5 # MY CODE
+from qsr_disr import QSR_DiSR
 
 # register new qsrs by class name below
 qsrs_registry = (QSR_RCC2,
@@ -22,7 +22,7 @@ qsrs_registry = (QSR_RCC2,
                  QSR_RCC4,
                  QSR_RCC5,
                  QSR_RCC8,
-                 QSR_DRCC5, # MY CODE
+                 QSR_DiSR,
                  QSR_Cardinal_Direction,
                  QSR_QTC_B_Simplified,
                  QSR_QTC_C_Simplified,
