@@ -1,0 +1,17 @@
+subject,activity,task
+Subject1_rgbd_images,microwaving_food,1204150828
+Subject1_rgbd_images,stacking_objects,1204144736
+Subject3_rgbd_images,having_meal,0510142336
+Subject3_rgbd_images,having_meal,0510142419
+Subject3_rgbd_images,having_meal,0510142800
+Subject3_rgbd_images,making_cereal,1204173536
+Subject3_rgbd_images,making_cereal,1204173846
+Subject3_rgbd_images,making_cereal,1204174024
+Subject3_rgbd_images,making_cereal,1204174314
+Subject3_rgbd_images,microwaving_food,1204180612
+Subject3_rgbd_images,stacking_objects,1204175451
+Subject3_rgbd_images,taking_medicine,1204174844
+Subject4_rgbd_images,arranging_objects,0510173203
+Subject4_rgbd_images,microwaving_food,0204141211
+Subject4_rgbd_images,taking_food,0510172049
+
